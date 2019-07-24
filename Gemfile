@@ -1,11 +1,8 @@
 source 'https://rubygems.org'
 gemspec
 
-if RUBY_VERSION < '2.2'
-  gem 'rb-inotify', '< 0.10'
-else
-  gem 'rb-inotify'
-end
+gem 'rb-inotify'
+
 
 group :development do
   gem 'rake'
